@@ -1,0 +1,10 @@
+@use "./partials/debug";
+@use "./partials/flex";
+@use "./partials/utils";
+@use "./partials/variables";
+@use "./partials/theme";
+@use "./partials/base";
+body {
+  margin: 0;
+  font-family: var(--font-family);
+}

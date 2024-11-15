@@ -1,0 +1,26 @@
+.header {
+  padding: 10px 20px;
+  img {
+    width: 50px;
+  }
+  .custom-btn {
+    padding: 10px 20px; // Espacement interne
+    border-radius: 20px; // Coins arrondis
+    border: none; // Supprimer la bordure
+    cursor: pointer; // Curseur de souris
+    transition: background-color 0.3s ease; // Animation de transition
+  }
+
+  .btn-cart {
+    @extend .custom-btn;
+    background-color: white; // Couleur de fond pour le bouton "Panier"
+    color: black; // Couleur du texte
+    border: 1px solid black; // Ajout de la bordure noire
+  }
+
+  .btn-login {
+    @extend .custom-btn;
+    background-color: black; // Couleur de fond pour le bouton "Connexion"
+    color: white; // Couleur du texte
+  }
+}
